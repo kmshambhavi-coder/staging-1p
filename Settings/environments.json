@@ -1,16 +1,16 @@
 [
     {
-        "name": "projects/spsstg-xm01l/locations/us/instances/fd149a51-8331-4d44-8fe5-fe4e7cf241cb/environments/3",
+        "name": "projects/spsstg-xm01l/locations/us/instances/fd149a51-8331-4d44-8fe5-fe4e7cf241cb/environments/4",
         "id": 0,
         "system": false,
-        "displayName": "staging-podman environment 002",
+        "displayName": "staging-podman environment 004",
         "description": "staging-podman environment 001",
-        "contact": "staging-podman 002 contact",
-        "contactEmails": "test@gmail.com",
-        "contactPhone": "01223456775443",
+        "contact": "dtest004",
+        "contactEmails": "dtest@gmail.com",
+        "contactPhone": "23456789097",
         "retentionDuration": 3,
         "dynamicParameters": [],
-        "aliasesJson": "[\"stagingtest002\"]",
+        "aliasesJson": "[]",
         "dataAccessScopesJson": "[]",
         "instanceUri": "",
         "weight": 1
