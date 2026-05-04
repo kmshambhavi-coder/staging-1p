@@ -17,7 +17,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "8074a8fd-1a89-4d63-9daa-274a379710a6",
     "creationTimeUnixTimeInMs": 1777906909169,
-    "modificationTimeUnixTimeInMs": 1777906909169,
+    "modificationTimeUnixTimeInMs": 1777908231332,
     "trigger": {
         "id": 0,
         "identifier": "7b867a96-501d-4ff0-97aa-4ffea1d0bbb5",
@@ -215,8 +215,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777906909169,
-            "modificationTimeUnixTimeInMs": 1777906909169,
+            "creationTimeUnixTimeInMs": 1777908231196,
+            "modificationTimeUnixTimeInMs": 1777908231332,
             "additionalProperties": {}
         },
         {
@@ -398,8 +398,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777906909169,
-            "modificationTimeUnixTimeInMs": 1777906909169,
+            "creationTimeUnixTimeInMs": 1777908231196,
+            "modificationTimeUnixTimeInMs": 1777908231332,
             "additionalProperties": {}
         },
         {
@@ -581,8 +581,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777906909169,
-            "modificationTimeUnixTimeInMs": 1777906909169,
+            "creationTimeUnixTimeInMs": 1777908231196,
+            "modificationTimeUnixTimeInMs": 1777908231332,
             "additionalProperties": {}
         },
         {
@@ -689,7 +689,7 @@
                 },
                 {
                     "name": "NestedWorkflowSteps",
-                    "value": "[{\"identifier\":\"3e9baf0b-7f20-4526-88ae-1c75bff83050\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Tag\",\"instanceName\":\"Siemplify_Case Tag_1\",\"stepType\":0},{\"identifier\":\"568b35ca-387c-4468-b677-3e6d54112243\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_1\",\"stepType\":0},{\"identifier\":\"5bcf859c-a148-4826-a3cd-482c87001a86\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Tag\",\"instanceName\":\"Siemplify_Case Tag_2\",\"stepType\":0},{\"identifier\":\"9bb49ea9-f1b2-49d6-961e-63922f2f5934\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Tag\",\"instanceName\":\"Siemplify_Case Tag_3\",\"stepType\":0},{\"identifier\":\"c18ad94c-832b-4b2d-804b-68990333e372\",\"integration\":\"Flow\",\"actionName\":\"MultiChoiceQuestion\",\"instanceName\":\"MultiChoiceQuestion_1\",\"stepType\":1},{\"identifier\":\"f00a2e1b-5c2b-4731-ac7c-eb33f95c6a64\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_2\",\"stepType\":0}]",
+                    "value": "[{\"identifier\":\"3e9baf0b-7f20-4526-88ae-1c75bff83050\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Tag\",\"instanceName\":\"Siemplify_Case Tag_1\",\"stepType\":0},{\"identifier\":\"568b35ca-387c-4468-b677-3e6d54112243\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_1\",\"stepType\":0},{\"identifier\":\"5bcf859c-a148-4826-a3cd-482c87001a86\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Tag\",\"instanceName\":\"Siemplify_Case Tag_2\",\"stepType\":0},{\"identifier\":\"9bb49ea9-f1b2-49d6-961e-63922f2f5934\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Tag\",\"instanceName\":\"Siemplify_Case Tag_3\",\"stepType\":0},{\"identifier\":\"a136e2e6-2db7-4064-b510-8eac29c9af23\",\"integration\":\"GitSync\",\"actionName\":\"GitSync_Ping\",\"instanceName\":\"GitSync_Ping_1\",\"stepType\":0},{\"identifier\":\"c18ad94c-832b-4b2d-804b-68990333e372\",\"integration\":\"Flow\",\"actionName\":\"MultiChoiceQuestion\",\"instanceName\":\"MultiChoiceQuestion_1\",\"stepType\":1},{\"identifier\":\"f00a2e1b-5c2b-4731-ac7c-eb33f95c6a64\",\"integration\":\"Siemplify\",\"actionName\":\"Siemplify_Case Comment\",\"instanceName\":\"Siemplify_Case Comment_2\",\"stepType\":0}]",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -719,8 +719,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777906909169,
-            "modificationTimeUnixTimeInMs": 1777906909169,
+            "creationTimeUnixTimeInMs": 1777908231196,
+            "modificationTimeUnixTimeInMs": 1777908286294,
             "additionalProperties": {}
         }
     ],
@@ -747,8 +747,8 @@
     "templateName": null,
     "playbookType": 0,
     "debugData": {
-        "debugBaseAlertId": null,
-        "debugAlertId": null
+        "debugBaseAlertId": "",
+        "debugAlertId": ""
     },
     "entityAccessLevel": 2,
     "defaultAccessLevel": 2,
