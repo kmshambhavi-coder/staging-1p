@@ -1,9 +1,0 @@
-[
-    {
-        "id": 1,
-        "name": "projects/spsstg-xm01l/locations/us/instances/fd149a51-8331-4d44-8fe5-fe4e7cf241cb/customLists/1",
-        "category": "a",
-        "entityIdentifier": "a",
-        "environments": "[\"staging-podman environment 004\"]"
-    }
-]
