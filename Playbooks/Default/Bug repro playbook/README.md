@@ -32,6 +32,7 @@
 |Siemplify_Case Tag_2|Add given tag to the case the current alert is grouped to|Siemplify|Case Tag|
 |Siemplify_Change Alert Priority_2|Automatically change the alert priority to the given input. Note: This action is compatible only with Siemplify version 5.6 and higher.|Siemplify|Change Alert Priority|
 |Siemplify_Change Priority_1|Automatically change case priority to the given input|Siemplify|Change Priority|
+|GitSync_Ping_2|Test connectivity to GitSync|GitSync|Ping|
 |Siemplify_Assign Case_1|Use the "Assign Case" action to assign the case to a user.|Siemplify|Assign Case|
 |GitSync_Ping_1|Test connectivity to GitSync|GitSync|Ping|
 |Siemplify_Change Alert Priority_1|Automatically change the alert priority to the given input. Note: This action is compatible only with Siemplify version 5.6 and higher.|Siemplify|Change Alert Priority|
