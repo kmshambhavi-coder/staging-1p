@@ -28,8 +28,10 @@
 ### Involved Steps (Unordered)
 |Step Name|Description|Integration|Original Action|
 |---------|-----------|-----------|---------------|
+|Siemplify_Case Comment_2|Add a comment to the case the current alert has been grouped to|Siemplify|Case Comment|
 |GitSync_Ping_1|Test connectivity to GitSync|GitSync|Ping|
 |Siemplify_Case Tag_1|Add given tag to the case the current alert is grouped to|Siemplify|Case Tag|
+|GitSync_Ping_2|Test connectivity to GitSync|GitSync|Ping|
 |Siemplify_Case Comment_1|Add a comment to the case the current alert has been grouped to|Siemplify|Case Comment|
 
 ### Involved Blocks
