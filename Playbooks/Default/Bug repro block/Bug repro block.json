@@ -18,7 +18,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "0910e1dc-7298-4f58-b63b-03ab33425042",
     "creationTimeUnixTimeInMs": 1777975163092,
-    "modificationTimeUnixTimeInMs": 1777986818885,
+    "modificationTimeUnixTimeInMs": 1777987707918,
     "trigger": {
         "id": 0,
         "identifier": "c358e604-288f-493b-9aa3-dd95ea7e210c",
@@ -119,8 +119,7 @@
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "InstanceDisplayName": "System Default Instance"
+                    "additionalProperties": {}
                 },
                 {
                     "name": "MessageToAssignee",
@@ -209,8 +208,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818885,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -248,191 +247,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
-            "additionalProperties": {}
-        },
-        {
-            "parallelActions": [],
-            "identifier": "64cbe7cf-97f4-4b18-90a2-94fafe252b4a",
-            "originalStepIdentifier": "64cbe7cf-97f4-4b18-90a2-94fafe252b4a",
-            "isAutomatic": true,
-            "isSkippable": false,
-            "instanceName": "Siemplify_Change Alert Priority_1",
-            "name": "Siemplify_Change Alert Priority",
-            "integration": "Siemplify",
-            "description": "Automatically change the alert priority to the given input. Note: This action is compatible only with Siemplify version 5.6 and higher.",
-            "actionProvider": "Scripts",
-            "actionName": "Siemplify_Change Alert Priority",
-            "type": 0,
-            "parameters": [
-                {
-                    "name": "AssignedUsers",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "DistinctDuplicateEntities",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "DynamicInjectionInstancePlaceholder",
-                    "value": "",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "FallbackIntegrationInstance",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "FetchInstanceByName",
-                    "value": "false",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "HasApprovalLink",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "IntegrationInstance",
-                    "value": "27079f42-5277-47b8-b368-ebcb7fa40160",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "InstanceDisplayName": "Siemplify_1"
-                },
-                {
-                    "name": "MessageToAssignee",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "PendingActionTimeout",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "RetryConfiguration",
-                    "value": "{\"Enabled\":false,\"IntervalInSeconds\":30,\"NumberOfRetries\":1}",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "ScriptName",
-                    "value": "Siemplify_Change Alert Priority",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "ScriptParametersEntityFields",
-                    "value": "{\"Alert Priority\":\"High\"}",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "SelectedScopeName",
-                    "value": "All entities",
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                },
-                {
-                    "name": "UseEntitiesLoopScope",
-                    "value": null,
-                    "type": null,
-                    "isMandatory": false,
-                    "defaultValue": null,
-                    "id": 0,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
-                }
-            ],
-            "autoSkipOnFailure": false,
-            "isDebugMockData": false,
-            "debugData": null,
-            "parentStepContainerId": null,
-            "workflowIdentifier": "0910e1dc-7298-4f58-b63b-03ab33425042",
-            "isTouchedByAi": false,
-            "startLoopStepIdentifier": null,
-            "logsExplorerUrl": null,
-            "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -558,8 +374,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -741,8 +557,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -924,8 +740,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -1107,8 +923,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -1146,8 +962,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -1239,8 +1055,7 @@
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "InstanceDisplayName": "System Default Instance"
+                    "additionalProperties": {}
                 },
                 {
                     "name": "MessageToAssignee",
@@ -1329,8 +1144,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -1422,8 +1237,7 @@
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "InstanceDisplayName": "System Default Instance"
+                    "additionalProperties": {}
                 },
                 {
                     "name": "MessageToAssignee",
@@ -1512,8 +1326,191 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "b4681657-de7f-41dd-8457-16c9029676e7",
+            "originalStepIdentifier": "b4681657-de7f-41dd-8457-16c9029676e7",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Siemplify_Case Comment_5",
+            "name": "Siemplify_Case Comment",
+            "integration": "Siemplify",
+            "description": "Add a comment to the case the current alert has been grouped to",
+            "actionProvider": "Scripts",
+            "actionName": "Siemplify_Case Comment",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DistinctDuplicateEntities",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "IntegrationInstance",
+                    "value": "27079f42-5277-47b8-b368-ebcb7fa40160",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {},
+                    "InstanceDisplayName": "Siemplify_1"
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "RetryConfiguration",
+                    "value": "{\"Enabled\":false,\"IntervalInSeconds\":30,\"NumberOfRetries\":1}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "Siemplify_Case Comment",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{\"Comment\":\"testcommentnew\"}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "All entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "UseEntitiesLoopScope",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "0910e1dc-7298-4f58-b63b-03ab33425042",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1777987707918,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         },
         {
@@ -1696,8 +1693,8 @@
                     "startLoopStepIdentifier": null,
                     "logsExplorerUrl": null,
                     "id": 0,
-                    "creationTimeUnixTimeInMs": 1777986818746,
-                    "modificationTimeUnixTimeInMs": 1777986818885,
+                    "creationTimeUnixTimeInMs": 1777987707720,
+                    "modificationTimeUnixTimeInMs": 1777987707918,
                     "additionalProperties": {}
                 },
                 {
@@ -1878,8 +1875,8 @@
                     "startLoopStepIdentifier": null,
                     "logsExplorerUrl": null,
                     "id": 0,
-                    "creationTimeUnixTimeInMs": 1777986818746,
-                    "modificationTimeUnixTimeInMs": 1777986818885,
+                    "creationTimeUnixTimeInMs": 1777987707720,
+                    "modificationTimeUnixTimeInMs": 1777987707918,
                     "additionalProperties": {}
                 },
                 {
@@ -2060,8 +2057,8 @@
                     "startLoopStepIdentifier": null,
                     "logsExplorerUrl": null,
                     "id": 0,
-                    "creationTimeUnixTimeInMs": 1777986818746,
-                    "modificationTimeUnixTimeInMs": 1777986818885,
+                    "creationTimeUnixTimeInMs": 1777987707720,
+                    "modificationTimeUnixTimeInMs": 1777987707918,
                     "additionalProperties": {}
                 }
             ],
@@ -2086,8 +2083,400 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1777986818746,
-            "modificationTimeUnixTimeInMs": 1777986818885,
+            "creationTimeUnixTimeInMs": 1777987707720,
+            "modificationTimeUnixTimeInMs": 1777987707918,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [
+                {
+                    "parallelActions": [],
+                    "identifier": "d6662fda-1df3-4cac-8790-82c54766ac2e",
+                    "originalStepIdentifier": "d6662fda-1df3-4cac-8790-82c54766ac2e",
+                    "isAutomatic": true,
+                    "isSkippable": false,
+                    "instanceName": "Siemplify_Case Comment_6",
+                    "name": "Siemplify_Case Comment",
+                    "integration": "Siemplify",
+                    "description": "Add a comment to the case the current alert has been grouped to",
+                    "actionProvider": "Scripts",
+                    "actionName": "Siemplify_Case Comment",
+                    "type": 0,
+                    "parameters": [
+                        {
+                            "name": "AssignedUsers",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "DistinctDuplicateEntities",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "DynamicInjectionInstancePlaceholder",
+                            "value": "",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "FallbackIntegrationInstance",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "FetchInstanceByName",
+                            "value": "false",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "HasApprovalLink",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "IntegrationInstance",
+                            "value": "27079f42-5277-47b8-b368-ebcb7fa40160",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "MessageToAssignee",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "PendingActionTimeout",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "RetryConfiguration",
+                            "value": "{\"Enabled\":false,\"IntervalInSeconds\":30,\"NumberOfRetries\":1}",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "ScriptName",
+                            "value": "Siemplify_Case Comment",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "ScriptParametersEntityFields",
+                            "value": "{\"Comment\":\"commnt1new\"}",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "SelectedScopeName",
+                            "value": "All entities",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "UseEntitiesLoopScope",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        }
+                    ],
+                    "autoSkipOnFailure": false,
+                    "isDebugMockData": false,
+                    "debugData": null,
+                    "parentStepContainerId": "f1554a35-e6fe-48eb-8a22-9f689314b07d",
+                    "workflowIdentifier": "0910e1dc-7298-4f58-b63b-03ab33425042",
+                    "isTouchedByAi": false,
+                    "startLoopStepIdentifier": null,
+                    "logsExplorerUrl": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 1777987707918,
+                    "modificationTimeUnixTimeInMs": 1777987707918,
+                    "additionalProperties": {}
+                },
+                {
+                    "parallelActions": [],
+                    "identifier": "64cbe7cf-97f4-4b18-90a2-94fafe252b4a",
+                    "originalStepIdentifier": "64cbe7cf-97f4-4b18-90a2-94fafe252b4a",
+                    "isAutomatic": true,
+                    "isSkippable": false,
+                    "instanceName": "Siemplify_Change Alert Priority_1",
+                    "name": "Siemplify_Change Alert Priority",
+                    "integration": "Siemplify",
+                    "description": "Automatically change the alert priority to the given input. Note: This action is compatible only with Siemplify version 5.6 and higher.",
+                    "actionProvider": "Scripts",
+                    "actionName": "Siemplify_Change Alert Priority",
+                    "type": 0,
+                    "parameters": [
+                        {
+                            "name": "AssignedUsers",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "DistinctDuplicateEntities",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "DynamicInjectionInstancePlaceholder",
+                            "value": "",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "FallbackIntegrationInstance",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "FetchInstanceByName",
+                            "value": "false",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "HasApprovalLink",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "IntegrationInstance",
+                            "value": "27079f42-5277-47b8-b368-ebcb7fa40160",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "MessageToAssignee",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "PendingActionTimeout",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "RetryConfiguration",
+                            "value": "{\"Enabled\":false,\"IntervalInSeconds\":30,\"NumberOfRetries\":1}",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "ScriptName",
+                            "value": "Siemplify_Change Alert Priority",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "ScriptParametersEntityFields",
+                            "value": "{\"Alert Priority\":\"High\"}",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "SelectedScopeName",
+                            "value": "All entities",
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        },
+                        {
+                            "name": "UseEntitiesLoopScope",
+                            "value": null,
+                            "type": null,
+                            "isMandatory": false,
+                            "defaultValue": null,
+                            "id": 0,
+                            "creationTimeUnixTimeInMs": 0,
+                            "modificationTimeUnixTimeInMs": 0,
+                            "additionalProperties": {}
+                        }
+                    ],
+                    "autoSkipOnFailure": false,
+                    "isDebugMockData": false,
+                    "debugData": null,
+                    "parentStepContainerId": "f1554a35-e6fe-48eb-8a22-9f689314b07d",
+                    "workflowIdentifier": "0910e1dc-7298-4f58-b63b-03ab33425042",
+                    "isTouchedByAi": false,
+                    "startLoopStepIdentifier": null,
+                    "logsExplorerUrl": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 1777987707720,
+                    "modificationTimeUnixTimeInMs": 1777987707918,
+                    "additionalProperties": {}
+                }
+            ],
+            "identifier": "f1554a35-e6fe-48eb-8a22-9f689314b07d",
+            "originalStepIdentifier": "f1554a35-e6fe-48eb-8a22-9f689314b07d",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Parallel Actions_2",
+            "name": "Parallel Actions",
+            "integration": null,
+            "description": "",
+            "actionProvider": "ParallelActionsContainer",
+            "actionName": "ParallelActionsContainer",
+            "type": 7,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "0910e1dc-7298-4f58-b63b-03ab33425042",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1777987707918,
+            "modificationTimeUnixTimeInMs": 1777987707918,
             "additionalProperties": {}
         }
     ],
@@ -2100,19 +2489,13 @@
         },
         {
             "condition": "",
-            "fromStep": "065bfd0e-dc47-44c4-acf3-e448cda80742",
+            "fromStep": "b4681657-de7f-41dd-8457-16c9029676e7",
             "toStep": "63b6b24f-c609-4a52-9c1e-ab4ae0147920",
             "destinationActionStatus": 0
         },
         {
             "condition": "",
-            "fromStep": "769b68f5-7619-4a38-94c8-4aecd17836b9",
-            "toStep": "64cbe7cf-97f4-4b18-90a2-94fafe252b4a",
-            "destinationActionStatus": 0
-        },
-        {
-            "condition": "",
-            "fromStep": "64cbe7cf-97f4-4b18-90a2-94fafe252b4a",
+            "fromStep": "f1554a35-e6fe-48eb-8a22-9f689314b07d",
             "toStep": "6bf993d6-19a3-433d-a7ee-7f970ca19e7a",
             "destinationActionStatus": 0
         },
@@ -2148,8 +2531,20 @@
         },
         {
             "condition": "",
+            "fromStep": "065bfd0e-dc47-44c4-acf3-e448cda80742",
+            "toStep": "b4681657-de7f-41dd-8457-16c9029676e7",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "",
             "fromStep": "9b20f564-78b2-4a66-846b-cda0535b3b05",
             "toStep": "c08ead37-8938-4a75-bc2b-c38622851ee3",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "",
+            "fromStep": "769b68f5-7619-4a38-94c8-4aecd17836b9",
+            "toStep": "f1554a35-e6fe-48eb-8a22-9f689314b07d",
             "destinationActionStatus": 0
         }
     ],
