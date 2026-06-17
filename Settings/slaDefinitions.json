@@ -1,15 +1,15 @@
 [
     {
-        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/slaDefinitions/3",
-        "id": 3,
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/slaDefinitions/5",
+        "id": 5,
         "slaType": "CasePriority",
         "slaTypeValue": "[\"High\"]",
-        "slaPeriod": 5.0,
+        "slaPeriod": 2.0,
         "slaPeriodTimeUnit": "Minutes",
-        "criticalSlaPeriod": 4.0,
+        "criticalSlaPeriod": 1.0,
         "criticalSlaPeriodTimeUnit": "Minutes",
         "environments": [
-            "Default Environment"
+            "*"
         ]
     },
     {
