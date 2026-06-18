@@ -1,0 +1,10 @@
+[
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/entitiesBlocklists/1",
+        "id": 1,
+        "entityIdentifier": "192.168.1.0/24",
+        "entityType": "ADDRESS",
+        "action": "DoNotCreateEntity",
+        "environmentsJson": "[\"Default Environment\"]"
+    }
+]
