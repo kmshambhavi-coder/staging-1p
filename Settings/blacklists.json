@@ -1,0 +1,18 @@
+[
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/entitiesBlocklists/4",
+        "id": 4,
+        "entityIdentifier": "Blocklist_02",
+        "entityType": "APPLICATION",
+        "action": "DoNotCreateEntity",
+        "environmentsJson": "[\"Default Environment\"]"
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/entitiesBlocklists/3",
+        "id": 3,
+        "entityIdentifier": "Blocklist_01",
+        "entityType": "*",
+        "action": "DoNotGroupAlerts",
+        "environmentsJson": "[\"*\"]"
+    }
+]
