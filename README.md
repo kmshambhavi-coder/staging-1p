@@ -8,6 +8,13 @@
 |Google SecOps AI Agents|This integration provides first-party AI agents for Google Chronicle. It allows users to leverage Google's advanced AI capabilities for security operations and threat intelligence within the Chronicle platform.|
 
 
+## Connectors
+|Name|Description|Has Mappings|
+|----|-----------|------------|
+|Crowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|True|
+|Google Chronicle - Chronicle Alerts Connector 1|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|True|
+
+
 ## Visual Families
 |Name|Description|
 |----|-----------|
