@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/caseTagDefinitions/7",
+        "id": 7,
+        "displayName": "new -tag00124",
+        "matchCriteria": "ByEntityPropertyName",
+        "value": "Data Exfiltration",
+        "propertyName": "Entity.Alert_Id",
+        "comparisonType": "Contain",
+        "priority": 1,
+        "canBeCaseTitle": false
+    }
+]
