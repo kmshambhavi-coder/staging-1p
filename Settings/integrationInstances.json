@@ -1,0 +1,74 @@
+[
+    {
+        "environment": "*",
+        "integrationIdentifier": "GoogleSecOpsAiAgents",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "System All Environments Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "True",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
+                    "isMandatory": false,
+                    "id": 128,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection.",
+                    "integrationIdentifier": "GoogleSecOpsAiAgents",
+                    "integrationInstance": "d670d0bb-a2f1-41ff-b6cc-53fb104a4d53"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "AWSGuardDuty",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "AWSGuardDuty_1",
+            "settings": [
+                {
+                    "propertyName": "AWS Access Key ID",
+                    "value": "abc",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 220,
+                    "propertyDisplayName": "AWS Access Key ID",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "AWSGuardDuty",
+                    "integrationInstance": "a4ba2892-72e5-499a-9e3d-e1dcb7efe83e"
+                },
+                {
+                    "propertyName": "AWS Secret Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": true,
+                    "id": 221,
+                    "propertyDisplayName": "AWS Secret Key",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "AWSGuardDuty",
+                    "integrationInstance": "a4ba2892-72e5-499a-9e3d-e1dcb7efe83e"
+                },
+                {
+                    "propertyName": "AWS Default Region",
+                    "value": "abc",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 222,
+                    "propertyDisplayName": "AWS Default Region",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "AWSGuardDuty",
+                    "integrationInstance": "a4ba2892-72e5-499a-9e3d-e1dcb7efe83e"
+                }
+            ]
+        }
+    }
+]
