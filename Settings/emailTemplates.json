@@ -1,0 +1,29 @@
+[
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/emailTemplates/3",
+        "templateType": "Template",
+        "author": "daa4bc87-d913-4478-9fb9-39ef75e1e983",
+        "id": 3,
+        "content": "123qweASFGH234567;.,/)(*&^%$#@\n\nSubject: Action Required: Review needed for [Project/Document Name]\n\nHi [First Name],\n\nHope your week is going well.\n\nI have finished drafting the [Project/Document Name], and it is ready for your review. You can access the live file here: [Insert link to document].\n\nSpecifically, I\u2019d love your feedback on:\n\n[Section A - e.g., The budget allocation]\n\n[Section B - e.g., The timeline for Phase 2]\n\nCould you please take a look and leave your comments by [Date/Time]? This will keep us on track for our final deadline next week.\n\nThanks,\n\n[Your Name] > [Your Department]",
+        "displayName": "EmailTemplate003",
+        "environments": "[\"*\"]"
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/emailTemplates/2",
+        "templateType": "Template",
+        "author": "daa4bc87-d913-4478-9fb9-39ef75e1e983",
+        "id": 2,
+        "content": "@#$%^&*()!@#$%^&*(@#$%^&*(@#$%^&WERTYU2345678dfghj",
+        "displayName": "EmailTemplate002",
+        "environments": "[\"Default Environment\"]"
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/emailTemplates/1",
+        "templateType": "Template",
+        "author": "daa4bc87-d913-4478-9fb9-39ef75e1e983",
+        "id": 1,
+        "content": "Subject: Quick question regarding [Topic/Challenge] at [Company Name]\n\nHi [First Name],\n\nI\u2019ve been following [Company Name]\u2019s recent work with [Industry Trend/Project], and I was really impressed by your team's approach to [Specific Achievement].\n\nI\u2019m reaching out because I work with companies like yours to solve [Specific Pain Point, e.g., manual data entry or system integration errors]. We typically help our partners [Insert major benefit, e.g., cut processing time in half].\n\nDo you have 10 minutes for a brief introductory call next [Day of week] or [Day of week] at [Time, e.g., 2:00 PM EST] to see if this might be a fit for your team?\n\nAlternatively, you can book a time directly on my calendar here: [Insert Calendar Link].\n\nThanks for your time,\n\n[Your Name] > [Your Title]\n\n[Your Company]",
+        "displayName": "EmailTemplate001",
+        "environments": "[\"Default Environment\",\"test001\"]"
+    }
+]
