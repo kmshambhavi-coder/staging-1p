@@ -1,0 +1,50 @@
+[
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/4",
+        "id": 0,
+        "system": false,
+        "displayName": "test002",
+        "description": "test002",
+        "contact": "test002",
+        "contactEmails": "test002@test.com",
+        "contactPhone": "234567845678",
+        "retentionDuration": 3,
+        "dynamicParameters": [],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/3",
+        "id": 0,
+        "system": false,
+        "displayName": "test001",
+        "description": "test001",
+        "contact": "test001",
+        "contactEmails": "test001@rest.com",
+        "contactPhone": "23456789",
+        "retentionDuration": 3,
+        "dynamicParameters": [],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    },
+    {
+        "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/environments/1",
+        "id": 0,
+        "system": true,
+        "displayName": "Default Environment",
+        "description": "Default Environment",
+        "contact": "N/A",
+        "contactEmails": "example@example.com",
+        "contactPhone": "0000000000",
+        "retentionDuration": 3,
+        "dynamicParameters": [],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    }
+]
